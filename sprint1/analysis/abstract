@@ -1,0 +1,16 @@
+Introduction 
+The Radiologist have to spend more time diagnosing the chest X-ray image to find any potential lung diseases.Beacause X-ray image contains large amount of complex data.
+Diagnosing X-Ray require careful observation and knowledge of anatomical principles, physiology and pathology.
+Developing automated system for such could make a huge impact to the patients, who don’t have access to expert radiologist.
+Our goal is to develop a scheme capable of both classifying the thoracic disease and localizing the diseased part in the X-ray image. 
+Perform experimental analysis on chest X-ray dataset published by National Institute of Health(NIH).
+It comprised of 1,12,120 X-Ray images with diseases labels from 30,805 unique patients.
+Each image labelled with up to 14 diseases.
+X-Ray images are grey scale images with 1024*1024  in resolution.
+In this work, we applied traditional machine learning techniques for automated detection of thoracic diseases.
+We aim to use chest X-ray images as input with labels
+Output is disease present or not.
+
+Architectural diagram
+
+Dataset ---> Split Dataset ---> Image Preprocessing ---> feature extraction ---> visual bag of words ---> Training ---> Testing

@@ -1,0 +1,25 @@
+Product Backlog
+
+Feature id              userstory                          priority             estimation(hrs)
+1
+             As a user i want to register so that i can       Low                      30
+             successfully entered into the system
+ 
+
+2            As a user i want to upload xray image  into     Medium                    60
+             the system for disorder detection
+ 
+
+3            As a user i want to result back for the         High                      90
+             processed data
+ 
+
+4            As a user i want to know the probability        High                      120
+             of having disease
+ 
+
+5            As a user i want to know the diseased           High                      60
+             part from the image
+ 
+
+

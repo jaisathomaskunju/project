@@ -1,0 +1,32 @@
+Feasibility study
+
+Feasibility study is the assessment of the practicality of the proposed system.
+Feasibility study aims to objectively uncover the strength and weakness of the proposed system.
+Once it has been determined, that the project is feasible and the analyst can go ahead and prepare the project specification.
+
+Technical Feasibility
+
+Hardware Specification
+	Processor : Intel I5
+	RAM        : 8 GB
+	Keyboard : entry texel quite keyboard
+Software specification
+	Backend    : TenserFlow
+	Frontend    : Keras
+
+Economic Feasibility
+
+Economic feasibility is used for evaluate the effectiveness of the proposed system.
+This determines the benefits and savings that are expected from the system and compared with cost and time.
+It is cost effective. Because there is only a one time implementation cost.
+
+Social Feasibility
+Social feasibility is a determination of whether a proposed project will be acceptable to the people or not.
+Correctly interpreting the information is always a major challenge for doctor.
+Our network can produce accurate disease classification and localization, which can potentially support clinical decisions.
+Easley detect the diseases with a very short range of time.
+For e.g., even for the experienced doctors it is sometimes not easy to distinguish diseases when contrast of surrounding tissue is very low.
+Easy to use medical diagnostic technique
+Improving the accuracy of disease detection
+
+

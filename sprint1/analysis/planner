@@ -1,0 +1,44 @@
+Sprint Planner
+
+Feature_id   sprint   Start_date  End_date Estimated(hrs)  Sprint_goal    Acceptance_criteria
+
+1          1st week                                        Create a       Given i am a new user,
+           of sprint  04/02/19    08/02/19      30         registration   i want to register to
+           1                                               page for       the system, when i fill
+                                                           users          the username & password
+                                                                          and i click on the sign
+                                                                          in then the system signs
+                                                                          me up.
+
+2          2nd week                                        Pre-process    Given iam a system admin
+           of sprint  11/02/19    22/02/19      60         the x-ray      i want to preprocess the
+           1 & 1st                                         images         images when i perform
+           week of                                                        cropping, rescaling and
+           sprint 2                                                       equalization on the image
+                                                                          then i get preprocessed
+                                                                          images for feature
+                                                                          extraction
+
+3          2nd week                                       Detection and   Given iam a system admin
+           of sprint  25/02/19    15/03/19      90        discription of  i want to extract 
+           2 & sprint                                     features        features of the image
+           3                                                              when i use the SIFT 
+                                                                          algorithm then i get
+                                                                          discription vector
+
+4          4 & 5      18/03/19    12/04/19      120       Generating      Given iam a system admin
+                                                          model           i want to generate a
+                                                                          neural network when i
+                                                                          generate a model then i
+                                                                          can find the thoracic
+                                                                          disease present in the 
+                                                                          x-ray images
+
+5          6          15/04/19     26/04/19     60        Find the        Given iam a system admin
+                                                          diseased part   i want to find the 
+                                                          from the xray   diseased part from the
+                                                          image           x-ray image when i use
+                                                                          heatmap then i can view
+                                                                          the diseased part in RGB
+                                                                          form
+

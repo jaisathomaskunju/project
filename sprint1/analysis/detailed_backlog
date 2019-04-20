@@ -1,0 +1,63 @@
+Detailed product backlog
+
+Feature id               Userstory        Priority      Storypoint      Rank     Estimation(hrs)
+1.1           As a system administrator 
+              i want to create a regis-     Low             3             1            30
+              tration so that i can su-
+              ccessfully login to the 
+              system
+ 
+
+2.1           As a system admin i want 
+              to scale down the image       medium          5             1            20
+              from 1024*1024 to 224*224 
+              to speed up computation
+
+
+2.2           As a system admin i want 
+              to perform cropping to        Medium          5             2            20
+              make lungs in the image 
+              so that i can get 180*
+              200 image
+ 
+
+2.3           As a system admin i want 
+              to apply histogram equa-      Medium          5             3            20
+              lizer so that i can inc-
+              rease the contrast of 
+              the image
+ 
+
+3.1           As a system admin i want 
+              to detect the features        High            8             1            30
+              of the image so that i 
+              can create a visual bag 
+              of words
+ 
+
+3.2           As a system admin i want 
+              to compute the descriptor     High            8              2           30
+              vector using SIFT algorithm
+ 
+
+3.3           As a system admin i want to 
+              convolve image with Guassian  High            8              3           30
+              filters so that  i can comp-
+              ute the DoG
+ 
+
+4.1           As a system admin i want to
+              perform clasification using   High            8              1           60
+              ANN and SVM so that i can 
+              easly categorize the diseases
+ 
+4.2           As a system admin i want 
+              to generate a  neural         High            8              2           60
+              network so that i can 
+              predict the thoracic diseases
+ 
+
+5.1           As a system admin i want 
+              to find the diseased part     High            8              1           60
+              from the xray image using 
+              heatmap 
