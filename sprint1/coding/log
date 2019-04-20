@@ -1,0 +1,66 @@
+log_in.html
+
+{% extends 'layouts/default/page.html' %}
+{% load bootstrap4 %}
+{% load i18n %}
+{% block content %}
+
+<h4>{% trans 'Log in' %}</h4>
+<form method="post">
+
+{% csrf_token %}
+{% bootstrap_form form %}
+
+<button class="btn btn-primary">{% trans 'Log in' %}</button>
+</form>
+<hr>
+<ul>
+<li>
+<a href="{% url 'accounts:restore_password' %}">{% trans 'Forgot your password?' %}</a>
+</li>
+<li>
+<a href="{% url 'accounts:remind_username' %}">{% trans 'Forgot your username?' %}</a>
+</li>
+<li>
+<a href="{% url 'accounts:resend_activation_code' %}">{% trans 'Resend an activation code' %}</a>
+</li>
+</ul>
+
+{% endblock %}
+
+
+log_out.html
+
+
+{% extends 'layouts/default/page.html' %}
+{% load i18n %}
+{% block content %}
+
+<h4>{% trans 'Logged out' %}</h4>
+<p>
+{% trans 'Thanks for spending some quality time with the site today.' %}
+</p>
+<p>
+<a href="{% url 'accounts:log_in' %}">{% trans 'Log in again' %}</a>
+</p>
+
+{% endblock %}
+
+sign_up.html
+
+{% extends 'layouts/default/page.html' %}
+{% load bootstrap4 %}
+{% load i18n %}
+{% block content %}
+
+<h4>{% trans 'Create an account' %}</h4>
+<form method="post">
+
+{% csrf_token %}
+{% bootstrap_form form %}
+
+<button class="btn btn-success">{% trans 'Create' %}</button>
+</form>
+
+{% endblock %}
+
